@@ -1,4 +1,4 @@
-# Task 1 (project) :: Installation
+# Task 1
 
 ![Screenshot of the task](https://github.com/aurelian77/task_1/blob/main/public/img/shot.png)
 
