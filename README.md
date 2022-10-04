@@ -1,5 +1,7 @@
 # Task 1
 
+Screenshot:
+
 ![Screenshot of the task](https://github.com/aurelian77/task_1/blob/main/public/img/shot.png)
 
 Please install it like any Lumen project:
