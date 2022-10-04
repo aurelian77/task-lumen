@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    text-align: center;
+    color: #222;
+}
+#task-container {
+    background-color: #efefef;
+    border: #eee 1px solid;
+    overflow: auto;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: left;
+}
+#task-head {
+    background-color: lavender;
+    padding: 5px;
+    border-bottom: 1px solid #aaa;
+    overflow: auto;
+    box-shadow: 5px 5px 5px #777;
+}
+#task-head > ul {
+    list-style-type: none;
+}
+#task-head > ul > li {
+    float: left;
+    padding: 0 25px;
+}
+#task-head input[type="number"],
+#task-head input[type="text"] {
+    width: 60px;
+    padding: 5px;
+    border: darkslateblue 1px solid;
+}
+#task-head input[type="text"] {
+    width: 120px;
+}
+button {
+    padding: 5px;
+    cursor: pointer;
+    background-color: steelblue;
+    border: darkslateblue 1px solid;
+    color: white;
+}
+#task-body {
+    padding: 15px;
+}
+.title {
+    color: steelblue;
+    font-size: 16px;
+}
+fieldset {
+    border: 1px solid steelblue;
+    padding: 15px;
+}
+#top {
+    margin: 15px;
+}
+#request-more-wrapper {
+    margin-top: 20px;
+}
+#request-more-wrapper {
+    font-size: 12px;
+}
+#request-more-wrapper input[type="text"],
+#request-more-wrapper input[type="date"] {
+    width: 200px;
+    border: 1px solid #ccc;
+}
+#response-wrapper {
+    width: 100%;
+    height: 280px;
+}
